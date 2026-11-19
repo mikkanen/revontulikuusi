@@ -1,0 +1,12 @@
+# CMake & käännöstiedostot
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+
+# IDE / editorit
+.vscode/
+.idea/
+.DS_Store
