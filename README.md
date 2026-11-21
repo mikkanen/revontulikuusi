@@ -29,7 +29,15 @@ cmake --build build -j
 ./build/kuusi_revontulet
 
 ### Windows 11 (MSYS2 UCRT64)
-pacman -S mingw-w64-ucrt-x86_64-sfml mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-gcc
+Alternative A:
+git clone [https://github.com/mikkanen/revontulikuusi.git](https://github.com/mikkanen/revontulikuusi.git)
+cd revontulikuusi
+
+cmake -B build -DSFML_DIR="C:/SFML-2.6.2/lib/cmake/SFML"
+cmake --build build --config Release -j
+
+Alternastive B:
+pacman -S --needed mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-sfml git
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/kuusi_revontulet.exe
