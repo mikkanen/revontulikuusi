@@ -101,7 +101,7 @@ Shared Mode vs. Exclusive Mode: WASAPI Loopback captures audio from the Windows 
 
 Bluetooth Headphones & Alternative A2DP Driver: If you use Bluetooth headphones with a third-party A2DP driver (such as Alternative A2DP Driver for LDAC/aptX HD codecs), ensure the driver's sample rate and audio profile are active and aligned with your Windows default playback device format (e.g., 48 kHz) so WASAPI Loopback receives a steady audio stream.
 
-License
+### License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 Copyright (c) 2026 Markku Mikkanen
