@@ -20,6 +20,7 @@ if(WIN32)
         sfml-graphics
         sfml-window
         sfml-system
+        sfml-main
         ole32
         avrt
     )
