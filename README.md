@@ -83,7 +83,7 @@ cmake --build build -j
 Control
 Esc or Q: Quit the program
 
-Notes:
+### Notes:
 Audio Routing on macOS (BlackHole 2ch)
 Because macOS does not allow direct capture of system output audio without a virtual driver:
 
