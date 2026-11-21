@@ -2,10 +2,9 @@
 
 Reaaliaikainen, ääneen reagoiva joulukuusi- ja revontulivisualisointi modernilla C++23:lla ja SFML-grafiikkakirjastolla.
 
-![Revontulikuusi musiikin tahdissa](assets/screenshot.png)
 [![Revontulikuusi musiikin tahdissa](assets/screenshot.png)](https://www.youtube.com/watch?v=PWYqN0GBeag)
 
-> **Katso esittelyvideo (60 FPS):** [Revontulikuusi – Wham! - Last Christmas (YouTube)](https://www.youtube.com/watch?v=PWYqN0GBeag)
+> **Please, look demo video in YouTube (60 FPS):** [Revontulikuusi – Wham! - Last Christmas (YouTube)](https://www.youtube.com/watch?v=PWYqN0GBeag)
 
 ## Ominaisuudet
 - **Äänisynkronointi:** Kaappaa järjestelmän äänilähdön ja jakaa signaalin FFT-spektrianalyysillä kolmeen taajuuskaistaan (basso, keskiäänet, diskantti).
