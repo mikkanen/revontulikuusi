@@ -1,6 +1,8 @@
-# Revontulikuusi (C++23 & SFML)
+# Revontulikuusi(Northern Lights Christmas Tree) (C++23 & SFML)
 
 Reaaliaikainen, ääneen reagoiva joulukuusi- ja revontulivisualisointi modernilla C++23:lla ja SFML-grafiikkakirjastolla.
+
+![Revontulikuusi musiikin tahdissa](assets/screenshot.png)
 
 ## Ominaisuudet
 - **Äänisynkronointi:** Kaappaa järjestelmän äänilähdön ja jakaa signaalin FFT-spektrianalyysillä kolmeen taajuuskaistaan (basso, keskiäänet, diskantti).
