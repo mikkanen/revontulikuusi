@@ -43,9 +43,11 @@ cd revontulikuusi
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/kuusi_revontulet
-
+```
 
 ### 2. macOS (Homebrew)
+```bash
+
 brew install cmake sfml@2 blackhole-2ch
 
 git clone [https://github.com/mikkanen/revontulikuusi.git](https://github.com/mikkanen/revontulikuusi.git)
@@ -55,8 +57,12 @@ cmake -B build -DCMAKE_PREFIX_PATH="$(brew --prefix sfml@2)" -DCMAKE_BUILD_TYPE=
 cmake --build build -j
 ./build/kuusi_revontulet
 
+```
 ### Windows 11 (MSYS2 UCRT64)
+
 Option A: Visual Studio 2022 / 2026 + SFML 2.6.2 (MSVC)
+```bash
+
 git clone [https://github.com/mikkanen/revontulikuusi.git](https://github.com/mikkanen/revontulikuusi.git)
 cd revontulikuusi
 
@@ -64,11 +70,15 @@ cmake -B build -DSFML_DIR="C:/SFML-2.6.2/lib/cmake/SFML"
 cmake --build build --config Release -j
 .\build\Release\kuusi_revontulet.exe
 
+```
 Option B:
+```bash
+
 pacman -S --needed mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-sfml git
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/kuusi_revontulet.exe
+```
 
 Control
 Esc or Q: Quit the program
